@@ -402,7 +402,7 @@ main {
 
 .plans-container-card {
     position: relative;
-    width: 70%;
+    width: 65%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
@@ -440,7 +440,7 @@ main {
     padding: 5px 0;
     font-size: 5.3rem;
     font-weight: 700;
-    font-family: 'Inter, sans';
+    font-family: 'Inter', sans-serif;
     color: black;
 }
 
@@ -449,4 +449,33 @@ main {
     font-weight: 300;
     vertical-align: 22px;
     margin-right: 3px;
+}
+
+.plan-card-cta {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card-button-arrow {
+    display: inline-block;
+    background-image: url('./assets/icons/arrow-right.svg');
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.plan-card-saving {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #757575;
+    width: 80%;
+    margin: 16px auto 0;
 }
