@@ -235,6 +235,10 @@ main {
     border-radius: 8px;
 }
 
+.currency-table-date.fees {
+    background-color: var(--soft-blue);
+}
+
 .currency-table-date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
